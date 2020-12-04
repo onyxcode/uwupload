@@ -1,0 +1,50 @@
+ * {
+   text-decoration: none;
+   font: sans-serif;
+ }
+
+ .thicc {
+   padding: 25 50 25 50;
+ }
+
+ #success {
+   background-color: #0BDF6E;
+   padding: 25px 10px 25px 10px;
+ }
+
+ .--hide {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+ }
+
+ .--hide + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    /*color: #34A0F9;*/
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 5px;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+.--hide:focus + label,
+.--hide + label:hover {
+    /*color: #5429F0;*/
+    color-adjust: 25%;
+}
+
+.--hide + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.--hide + label {
+  background-color: #0BDF6E;
+}
